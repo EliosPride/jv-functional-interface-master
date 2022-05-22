@@ -12,10 +12,6 @@ public class Engine {
         this.engineVolume = engineVolume;
     }
 
-    public Engine(EngineType engineType) {
-        this.engineType = engineType;
-    }
-
     public EngineType getEngineType() {
         return engineType;
     }
